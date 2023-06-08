@@ -1,0 +1,9 @@
+body {
+    background-color: #ebebeb;
+  }
+  
+.nav-tab{
+    background-color: #EAC926;
+    display: flex;
+    justify-content: flex-end
+}
