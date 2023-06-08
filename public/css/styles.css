@@ -1,15 +1,172 @@
-body {
-    background-color: #ebebeb;
-    font-family: 'Roboto', sans-serif;
-  }
-  
 
 * {
-    background-color: #EAC926;
-    padding:0;
     margin: 0;
-} 
-.nav-tab {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+  }
+  
+  .banner-container {
     display: flex;
-    justify-content: flex-end
-}
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .banner-container img {
+    height: auto;
+    max-width: 80%;
+  }
+
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #EAC926;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-tab img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .nav-tab input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 10px;
+  }
+  
+  .nav-bottom ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-bottom ul li {
+    margin-right: 10px;
+  }
+  
+  .nav-bottom ul li a {
+    text-decoration: none;
+    color: #03264C;
+    font-size: 12px;
+  }
+  
+  /* Estilos para la sección principal */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #03264C;
+  }
+  
+  .product {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .product img {
+    height: 200px;
+    width: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    margin-bottom: 5px;
+  }
+  
+  .product p.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #03264C;
+  }
+  
+  .product p.price {
+    font-size: 18px;
+    color: #03264C;
+  }
+  
+  .product p.discount {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #03264C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer section {
+    margin-bottom: 20px;
+  }
+  
+  footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  footer img {
+    height: 30px;
+    width: auto;
+    margin-bottom: 10px;
+  }
+  
+  .nav-bottom ul li a:hover {
+    color: #1259c3;
+  }
+  
+  .product img:hover {
+    border: 1px solid #39b54a;
+  }
+  
+  footer .tarjetacredito {
+    background-color: #EAC926;
+    font-style: #03264C;
+  }
+  
+  footer .enviogratis {
+    background-color: #ebebeb;
+    color: blue;
+  }
+  
+  footer .seguridad {
+    background-color: #666;
+    color: #fff;
+  }
+  
