@@ -163,17 +163,17 @@
   }
   
   footer .tarjetacredito {
-    background-color: #EAC926;
-    font-style: #03264C;
+    background-color: grey;
+    font-style: black;
   }
   
   footer .enviogratis {
-    background-color: #ebebeb;
-    color: blue;
+    background-color: grey;
+    color: black;
   }
   
   footer .seguridad {
-    background-color: #666;
-    color: #fff;
+    background-color: grey;
+    color: black;
   }
   
