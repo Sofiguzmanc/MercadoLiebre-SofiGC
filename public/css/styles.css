@@ -77,10 +77,13 @@ main {
   padding: 20px;
 }
 
-
 section {
   display: flex;
-  flex-wrap: wrap; margin-bottom: 20px;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
 .product-cafetera,
