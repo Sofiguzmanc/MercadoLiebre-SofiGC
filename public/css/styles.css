@@ -76,12 +76,11 @@ main {
   padding: 20px;
 }
 
-section {
-  margin-bottom: 20px;
-}
 
-section h2 {
-  margin-bottom: 10px;
+section {
+  display: flex;
+  flex-wrap: wrap; m
+  margin-bottom: 20px;
 }
 
 .product-cafetera,
@@ -90,9 +89,11 @@ section h2 {
 .product-samsung,
 .product-tv,
 .product-lentesrv {
+  flex: 0 0 calc(25% - 20px);
   display: flex;
-  align-items: flex-start;
-  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
 
 .product-cafetera img,
@@ -101,9 +102,9 @@ section h2 {
 .product-samsung img,
 .product-tv img,
 .product-lentesrv img {
-  width: 150px;
+  width: 100%;
   height: auto;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .product-cafetera p,
@@ -112,5 +113,5 @@ section h2 {
 .product-samsung p,
 .product-tv p,
 .product-lentesrv p {
-  font-size: 16px;
+  text-align: center;
 }
