@@ -123,4 +123,5 @@ section {
 
 footer{
   display: flexbox;
+align-content: center;
 }
