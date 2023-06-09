@@ -76,22 +76,10 @@ main {
   padding: 20px;
 }
 
-main > div {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
-main > div img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
 
 section {
   display: flex;
-  flex-wrap: wrap; m
-  margin-bottom: 20px;
+  flex-wrap: wrap; margin-bottom: 20px;
 }
 
 .product-cafetera,
