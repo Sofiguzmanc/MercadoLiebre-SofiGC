@@ -42,7 +42,7 @@ header {
 .nav-tab input[type="text"] {
   flex: 1;
   padding: 5px;
-  border: none;
+  border-color: #eac926 ;
   font-size: 12px;
 }
 
