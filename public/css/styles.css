@@ -1,178 +1,173 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-  }
-  
-  .banner-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+h2 {
+  font-size: 24px;
+}
 
-  .banner-container img {
-    height: auto;
-    max-width: 50%;
-  }
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #ebebeb;
+  padding: 20px;
+}
+
+.nav-tab {
+  display: flex;
+  align-items: center;
+}
+
+.nav-tab img {
+  margin-right: 10px;
+}
+
+.nav-tab input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: none;
+}
+
+.nav-bottom {
+  padding-top: 10px;
+}
 
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  header {
-    background-color: #EAC926;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .nav-tab img {
-    height: 50px;
-    width: auto;
-  }
-  
-  .nav-tab input[type="text"] {
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    width: 200px;
-    margin-left: 10px;
-  }
-  
-  .nav-bottom ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav-bottom ul li {
-    margin-right: 10px;
-  }
-  
-  .nav-bottom ul li a {
-    text-decoration: none;
-    color: #03264C;
-    font-size: 12px;
-  }
-  
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #03264C;
-  }
-  
-  .product {
-    background-color: #fff;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .product-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .product img {
-    height: 200px;
-    width: auto;
-    margin-bottom: 10px;
-  }
-  
-  .product p {
-    margin-bottom: 5px;
-  }
-  
-  .product p.title {
-    font-size: 16px;
-    font-weight: bold;
-    color: #03264C;
-  }
-  
-  .product p.price {
-    font-size: 18px;
-    color: #03264C;
-  }
-  
-  .product p.discount {
-    font-size: 16px;
-    color: #666;
-  }
-  
-  /* Estilos para el pie de página */
-  footer {
-    background-color: white;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer section {
-    margin-bottom: 20px;
-  }
-  
-  footer h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #fff;
-  }
-  
-  footer p {
-    font-size: 12px;
-    margin-bottom: 5px;
-    color: #fff;
-  }
-  
-  footer img {
-    height: 30px;
-    width: auto;
-    margin-bottom: 10px;
-  }
-  
-  .nav-bottom ul li a:hover {
-    color: whitesmoke;
-  }
-  
-  .product img:hover {
-    border: 1px solid #39b54a;
-  }
-  
-  footer .tarjetacredito {
-    background-color: grey;
-    font-style: black;
-  }
-  
-  footer .enviogratis {
-    background-color: grey;
-    color: black;
-  }
-  
-  footer .seguridad {
-    background-color: grey;
-    color: black;
-  }
-  
+nav {
+  background-color: #1259c3;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+.product-cafetera,
+.product-mackbook,
+.product-auriculares,
+.product-samsung,
+.product-tv,
+.product-lentesrv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-cafetera img,
+.product-mackbook img,
+.product-auriculares img,
+.product-samsung img,
+.product-tv img,
+.product-lentesrv img {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+footer section {
+  margin-bottom: 20px;
+}
+
+.tarjetacredito img,
+.enviogratis img,
+.seguridad img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+
+.nav-tab {
+  background-color: #ebebeb;
+}
+
+.nav-bottom p {
+  color: #39b54a;
+}
+
+nav ul li a:hover {
+  color: #eac926;
+}
+
+.product-cafetera,
+.product-mackbook,
+.product-auriculares,
+.product-samsung,
+.product-tv,
+.product-lentesrv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-cafetera p,
+.product-mackbook p,
+.product-auriculares p,
+.product-samsung p,
+.product-tv p,
+.product-lentesrv p {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-cafetera p,
+.product-mackbook p,
+.product-auriculares p,
+.product-samsung p,
+.product-tv p,
+.product-lentesrv p {
+  font-size: 16px;
+}
+
+
+.tarjetacredito h3,
+.enviogratis h3,
+.seguridad h3 {
+  color: #03264C;
+}
