@@ -29,7 +29,6 @@
     padding: 20px;
   }
   
-  /* Estilos para el encabezado */
   header {
     background-color: #EAC926;
     padding: 10px;
@@ -67,7 +66,7 @@
     font-size: 12px;
   }
   
-  /* Estilos para la sección principal */
+  
   main {
     padding: 20px;
   }
@@ -126,7 +125,7 @@
   
   /* Estilos para el pie de página */
   footer {
-    background-color: #03264C;
+    background-color: white;
     color: #fff;
     padding: 20px;
     text-align: center;
