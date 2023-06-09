@@ -1,4 +1,4 @@
-body {
+ody {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   color: #666;
@@ -19,18 +19,23 @@ p {
   padding: 0;
 }
 
-/* Header */
+
 header {
-  background-color: #ebebeb;
+  background-color: #fff;
   padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-tab {
   display: flex;
   align-items: center;
+  padding: 10px;
+  background-color: #eac926;
 }
 
 .nav-tab img {
+  width: 30px;
+  height: auto;
   margin-right: 10px;
 }
 
@@ -38,12 +43,12 @@ header {
   flex: 1;
   padding: 5px;
   border: none;
+  font-size: 12px;
 }
 
 .nav-bottom {
   padding-top: 10px;
 }
-
 
 nav {
   background-color: #1259c3;
@@ -67,7 +72,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-
 main {
   padding: 20px;
 }
@@ -87,8 +91,7 @@ section h2 {
 .product-tv,
 .product-lentesrv {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 20px;
 }
 
@@ -103,59 +106,6 @@ section h2 {
   margin-right: 10px;
 }
 
-
-footer {
-  background-color: #f5f5f5;
-  padding: 20px;
-}
-
-footer section {
-  margin-bottom: 20px;
-}
-
-.tarjetacredito img,
-.enviogratis img,
-.seguridad img {
-  width: 50px;
-  height: auto;
-  margin-right: 10px;
-}
-
-
-.nav-tab {
-  background-color: #ebebeb;
-}
-
-.nav-bottom p {
-  color: #39b54a;
-}
-
-nav ul li a:hover {
-  color: #eac926;
-}
-
-.product-cafetera,
-.product-mackbook,
-.product-auriculares,
-.product-samsung,
-.product-tv,
-.product-lentesrv {
-  display: flex;
-  justify-content: space-between;
-}
-
-.product-cafetera p,
-.product-mackbook p,
-.product-auriculares p,
-.product-samsung p,
-.product-tv p,
-.product-lentesrv p {
-  width: 150px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .product-cafetera p,
 .product-mackbook p,
 .product-auriculares p,
@@ -163,11 +113,4 @@ nav ul li a:hover {
 .product-tv p,
 .product-lentesrv p {
   font-size: 16px;
-}
-
-
-.tarjetacredito h3,
-.enviogratis h3,
-.seguridad h3 {
-  color: #03264C;
 }
