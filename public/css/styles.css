@@ -5,10 +5,6 @@
     box-sizing: border-box;
   }
   
-  img {
-    width: 160px;
-  }
-  
   body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
